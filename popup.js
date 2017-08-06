@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function(){
           description:"{description}",
           info: "{author}"
         });
-        var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+        var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=YOUR_API_KEY');
         oList.setModel(oJSONDataModel);
         oList.bindItems('/articles',oItem); 
         var oDPage1 = new sap.m.Page({
@@ -15,7 +15,7 @@ sap.ui.getCore().attachInit(function(){
               icon:"sap-icon://home",
               type:"Accept",
               press:function(){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                 
               }
@@ -49,27 +49,27 @@ sap.ui.getCore().attachInit(function(){
                 item.$().css('background-color', '#5cc7b2');
                 this._prevSelect = item;
                 if(item.sId == '__item1-mList-0'){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel(' https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel(' https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                     
                 }
                 else if (item.sId == '__item1-mList-1'){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                   
                 }
                 else if (item.sId == '__item1-mList-2'){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=daily-mail&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=daily-mail&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                   
                 }
                 else if (item.sId == '__item1-mList-3'){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                   
                 }
                 else if (item.sId == '__item1-mList-4'){
-                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-hindu&sortBy=top&apiKey=de5d1111dbc343c6b78477b08ab4dd33');
+                var oJSONDataModel = new sap.ui.model.json.JSONModel('https://newsapi.org/v1/articles?source=the-hindu&sortBy=top&apiKey=YOUR_API_KEY');
                 oList.setModel(oJSONDataModel);
                 oList.bindItems('/articles',oItem);                   
                 }
