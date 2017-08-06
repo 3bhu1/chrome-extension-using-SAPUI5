@@ -1,0 +1,49 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>News Extension for Chrome using SAPUI5</title>
+    <style>
+      html{
+        width: 450px;
+        height: 500px;
+      }
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        width: 450px;
+        height: 500px;
+      }
+      .myCustomChannelLogo{
+        border-radius: 50%;
+      }
+      .sapMNav.sapMSplitContainerMaster{
+        width: 20%;
+      }  
+      .sapMLIB.sapMLIBSelected {
+          background: #5cc7b2;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script id="sap-ui-bootstrap"
+    type="text/javascript"
+    src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_belize"
+    data-sap-ui-libs="sap.m"></script> 
+    <script src="popup.js"></script>
+  </head>
+  <body class= "sapUiBody">
+    <div id="content"></div>
+  </body>
+</html>
+

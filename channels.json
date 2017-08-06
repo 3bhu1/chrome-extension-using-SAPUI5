@@ -1,0 +1,22 @@
+[
+	{
+		"channelName"   : "New York Times",
+		"channelLogo"   : "https://cdn1.nyt.com/mw-static/images/touch-icon-ipad-144.319373aa.png"	
+	},
+	{
+		"channelName"   : "BBC",
+		"channelLogo"	: "http://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/1.2.0/apple-touch-icon.png"
+	},
+	{
+		"channelName"   : "Daily Mail",
+		"channelLogo"	: "http://www.dailymail.co.uk/apple-touch-icon.png"
+	},
+	{
+		"channelName"   : "Times of India",
+		"channelLogo"	: "https://3.bp.blogspot.com/-NaKhQfcARS8/V6mkOa5dZOI/AAAAAAAA4JI/1wgXfCJeyuIkLPXxzTCqlyruuNRlNdZuQCLcB/s1600/TOI_Logo.png"		
+	},
+	{
+		"channelName"   : "The Hindu",
+		"channelLogo"	: "https://store-images.s-microsoft.com/image/apps.38416.9007199266250907.217cbcfc-4852-43d4-b3af-766d136f85fa.6ce717fa-8786-45ed-9bfc-ebc414691daa?w=180&h=180&q=60"		
+	}
+]
